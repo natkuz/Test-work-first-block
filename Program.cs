@@ -25,6 +25,14 @@ string[] GetArrayWithElementsOfSomeLength(string[] array, int elementLength)
     return arrayNew;
 }
 
+void PrintArray(string[] array)
+{
+    foreach (var item in array)
+    {
+        Console.Write($" '{item}' ");
+    }
+}
+
 string[] array = FillArray(4);
 PrintArray(array);
 Console.WriteLine();
