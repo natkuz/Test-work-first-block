@@ -1,4 +1,4 @@
-string[] FillArray(int amountElements)
+﻿string[] FillArray(int amountElements)
 {
     string[] array = new string[amountElements];
     for (int i = 0; i < array.Length; i++)
